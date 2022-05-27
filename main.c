@@ -19,6 +19,7 @@ int main() {
 
     if (!validate()) {
         printf ("Your input values are inapplicable") ;
+        return 0;
     }
 
     printStdTime();
