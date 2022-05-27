@@ -31,6 +31,7 @@ int validate () {
 }
 
 int readUserInput () {
+    printf(" ");
     printf("Enter hours: ");
     scanf("%d", &hours);
 
