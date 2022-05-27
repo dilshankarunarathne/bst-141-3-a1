@@ -25,7 +25,7 @@ int readUserInput () {
 int main() {
     readUserInput();
     if (!validate()) {
-        
+        printf () ;
     }
 
     return 0;
