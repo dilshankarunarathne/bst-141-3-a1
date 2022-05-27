@@ -27,7 +27,7 @@ void printRegTime() {
         period [0] = 'p';
         regHours -= 12;
     }
-    printf("%d : %d : %d",hours, minutes, seconds);
+    printf("%d : %d : %d %s", regHours, minutes, seconds, period);
 }
 
 void printStdTime() {
