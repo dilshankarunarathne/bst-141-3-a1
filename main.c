@@ -10,14 +10,14 @@ int validate () {
 }
 
 int readUserInput () {
-    printf("Enter hours: ");
-    scanf("%d", &hours);
+    printf(" Enter hours: ");
+    scanf("%d ", &hours);
 
     printf("Enter minutes: ");
-    scanf("%d", &minutes);
+    scanf("%d ", &minutes);
 
     printf("Enter seconds: ");
-    scanf("%d", &seconds);
+    scanf("%d ", &seconds);
 
     printf("Time: %d : %d : %d",hours, minutes, seconds);
 }
@@ -25,7 +25,7 @@ int readUserInput () {
 int main() {
     readUserInput();
     if (!validate()) {
-        printf () ;
+        printf ("Your input values are inapplicable") ;
     }
 
     return 0;
