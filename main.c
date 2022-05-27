@@ -20,7 +20,7 @@ int main() {
 }
 
 void printStdTime() {
-    
+
 }
 
 int validate () {
@@ -39,6 +39,4 @@ int readUserInput () {
 
     printf("Enter seconds: ");
     scanf("%d", &seconds);
-
-//    printf("Time: %d : %d : %d",hours, minutes, seconds);
 }
