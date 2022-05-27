@@ -21,7 +21,10 @@ int main() {
 }
 
 void printRegTime() {
-    
+    int regHours = hours;
+    if (hours>12) {
+
+    }
 }
 
 void printStdTime() {
