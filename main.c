@@ -20,7 +20,7 @@ int main() {
 }
 
 void printStdTime() {
-
+    printf("%d : %d : %d",hours, minutes, seconds);
 }
 
 int validate () {
