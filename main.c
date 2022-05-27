@@ -2,24 +2,19 @@
 
 int hours, minutes, seconds;
 
-int validate() {
+int validate () {
     if (hours>24 || hours<0 || minutes>60 || minutes<0 || seconds>60 || seconds<0) {
         return 0;
     }
     return 1;
 }
 
+int readUserInput () {
+
+}
+
 int main() {
-    printf("Enter hours: ");
-    scanf("%d", &hours);
 
-    printf("Enter minutes: ");
-    scanf("%d", &minutes);
-
-    printf("Enter seconds: ");
-    scanf("%d", &seconds);
-
-    printf("Time: %d : %d : %d",hours, minutes, seconds);
 
     return 0;
 }
