@@ -1,18 +1,23 @@
 #include <stdio.h>
 
-int main() {
-    int hours, minutes, seconds;
+int hours, minutes, seconds;
 
+int validate() {
+    if(hours>24 || hours<0)
+}
+
+int main() {
     printf("Enter hours: ");
     scanf("%d", &hours);
 
     printf("Enter minutes: ");
-    scanf("%d", &hours);
+    scanf("%d", &minutes);
 
     printf("Enter seconds: ");
-    scanf("%d", &hours);
+    scanf("%d", &seconds);
 
-    printf("Number = %d",hours);
+    printf("Time: %d : %d : %d",hours, minutes, seconds);
 
     return 0;
 }
+
