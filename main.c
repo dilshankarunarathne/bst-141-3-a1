@@ -29,6 +29,9 @@ int main() {
         printf ("Your input values are inapplicable") ;
     }
 
+    printStdTime();
+    printRegTime();
+
     return 0;
 }
 
