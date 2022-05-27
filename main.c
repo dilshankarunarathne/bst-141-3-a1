@@ -23,7 +23,10 @@ int readUserInput () {
 }
 
 int main() {
-    
+    readUserInput();
+    if (!validate()) {
+        
+    }
 
     return 0;
 }
