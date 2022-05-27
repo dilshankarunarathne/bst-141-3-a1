@@ -1,0 +1,3 @@
+C:/Projects/bst-141-3-a1/cmake-build-debug/CMakeFiles/bst_141_3_a1.dir
+C:/Projects/bst-141-3-a1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Projects/bst-141-3-a1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
