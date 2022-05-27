@@ -5,6 +5,7 @@ int hours, minutes, seconds;
 void printStdTime();
 int validate ();
 int readUserInput ();
+void printRegTime();
 
 int main() {
     readUserInput();
@@ -17,6 +18,10 @@ int main() {
     printRegTime();
 
     return 0;
+}
+
+void printRegTime() {
+
 }
 
 void printStdTime() {
