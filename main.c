@@ -14,7 +14,7 @@ int main() {
     }
 
     printStdTime();
-//    printRegTime();
+    printRegTime();
 
     return 0;
 }
