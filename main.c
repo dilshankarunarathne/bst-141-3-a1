@@ -25,6 +25,7 @@ void printRegTime() {
     char period [] = "am";
     if (hours>12) {
         period [0] = 'p';
+        regHours -= 12;
     }
 }
 
