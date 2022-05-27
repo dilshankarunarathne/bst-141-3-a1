@@ -1,10 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int testInteger;
-    printf("Enter an integer: ");
-    scanf("%d", &testInteger);
-    printf("Number = %d",testInteger);
-    
+    int hours, minutes, seconds;
+
+    printf("Enter hours: ");
+    scanf("%d", &hours);
+
+    printf("Enter minutes: ");
+    scanf("%d", &hours);
+
+    printf("Enter seconds: ");
+    scanf("%d", &hours);
+
+    printf("Number = %d",hours);
+
     return 0;
 }
