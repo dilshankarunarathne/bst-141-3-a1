@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * Author:          Dilshan Karunarathne
+ * Created:         27.05.2022
+ *
+ * (c) Copyright    http://karunarathne.me
+ **/
+
 int hours, minutes, seconds;
 
 void printStdTime();
