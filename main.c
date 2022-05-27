@@ -3,7 +3,9 @@
 int hours, minutes, seconds;
 
 int validate() {
-    if(hours>24 || hours<0)
+    if (hours>24 || hours<0) {
+
+    }
 }
 
 int main() {
